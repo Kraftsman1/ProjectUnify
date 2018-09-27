@@ -1,0 +1,146 @@
+html
+/*Developed By The Kraftsman*/
+/*Please give credit when due*/
+
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 1;
+	font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 2;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  @include small {
+  padding-top: 10px;
+  margin-bottom: 22px;
+  float: left;
+  width: 100%;
+  }
+}
+
+li {
+  display: inline;
+  margin-left: 35px;
+  line-height: 1.5;
+  @include small {
+  width: 100%;
+  padding: 7px 0;
+  margin: 0;
+  }
+}
+
+a{
+  color:red;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+/* Class Begin */
+.header{
+  position: center;
+  background: #333;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-height: 500px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+} 
+
+.content {
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+  padding: 25px 2% 250px;
+	background-color: gray;
+	border-style: ridge;
+	max-height: 300px;
+	
+}
+
+.maintitle {
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	margin-left: 40px;
+}
+
+.subtitle {
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	margin-left: 40px;
+}
+
+.article {
+	padding: 20px 20px 20px 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.navbar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: yellow;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-footer{
+  margin: 10px 10px 10px 10px;
+  padding: 10px 20px 20px 20px;
+  padding-left: 20px;
+  min-height: 30px;
+  color: black;
+}
+
+.social{
+  color: black;
+	padding: 10px 10px 10px 10px;
+	letter-spacing: 5px;
+}
+
+.footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.sub-section {
+	margin: 30px 30px 30px 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.emphasis {
+	margin-left: 40px;
+	margin-right: 80px;
+}
+
+/* Class End */
+
+.left-column {
+	display: inline;
+}
+
+.right-column {
+	display: inline;
+}

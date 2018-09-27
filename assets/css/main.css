@@ -1,0 +1,186 @@
+CSS
+/*Developed By The Kraftsman*/
+/*Please give credit when due*/
+
+body {
+  background: white;
+  font-family: "Cardo", serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 2;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  @include small {
+  padding-top: 10px;
+  margin-bottom: 22px;
+  float: left;
+  width: 100%;
+  }
+}
+
+li{
+  display: inline;
+  margin-left: 35px;
+  line-height: 1.5;
+  @include small {
+  width: 100%;
+  padding: 7px 0;
+  }
+}
+
+a{
+  color: deepskyblue;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+
+/* Class Begin */
+
+
+.body{
+  position: center;
+  background: #333;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 350px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.headertitle {
+  background: #333;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-height: 500px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+ 
+.nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: yellow;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.maincontent {
+  margin: 30px 30px 30px 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.subcontent {
+  margin: 30px 30px 30px 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.portfolio{
+  text-align: center;
+}
+
+.image{
+  padding-top: 20px;
+  border-radius: 150px;
+  width: 300px;
+}
+
+.social{
+  color: black;
+	padding: 10px 10px 10px 10px;
+	letter-spacing: 5px;
+}
+
+.footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wrapper {
+  background-color: grey;
+}
+
+/* Class End */
+
+
+.bio {
+	display: inline;
+}
+
+.bio-temps {
+	text-align: center;
+}
+
+
+
+.container-fluid {
+	
+}
+
+.table {
+	width: auto; 
+	cellspacing: 10px; 
+	cellpadding: 20px;
+}
+
+
+
+.article {
+	text-align: center;
+	line-height: 1em;
+}
+
+.content {
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+
+.maintitle {
+	line-height: 1.5em;
+}
+
+.subtitle {
+	line-height: 1.5em;
+}
+
+.emphasis {
+	color: blue;
+	line-height: 2em;
+	font-weight: 900;
+}
+
+.vid {
+	background-color: yellow;
+}
